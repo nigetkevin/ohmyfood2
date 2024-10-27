@@ -1,0 +1,45 @@
+.card {
+    border-radius: 15px;
+    background: white;
+    position: relative;
+
+    &__tag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #99E2D0;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 80px;
+        height: 29px;
+        border-radius: 2px;
+    }
+    &__new{
+        display: flex;        
+        color: #008766;
+    }
+    &__image{
+        
+        border-top-left-radius: 15px;
+        border-top-right-radius:15px ;
+        object-fit: cover;
+        width: 100%;
+        height: 174px;
+    }
+    &__content{
+        margin: 16px 25px 12px 13px;
+        display: flex;        
+        justify-content: space-between;
+    }
+    
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    &__heart{
+        display: flex;
+        align-items: center;
+    }
+}
